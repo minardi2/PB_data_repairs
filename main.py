@@ -37,7 +37,7 @@ def delete_duplicates_contact(new_contacts_list):
                 if contact[i]:
                     contact_value[i] = contact[i]
         else:
-            phone_book[contact[0]] = contact #umplem dictul, key=contact[0]: value=fullcontact
+            phone_book[contact[0]] = contact #umplem dictul, key=contact[0] value=fullcontact
     return list(phone_book.values())
 
 
